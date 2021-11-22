@@ -44,7 +44,7 @@ void main()
 	uint32 ucBufferSize = 0;							/* Buffer size */
 
 		/* Checking the file open */
-		if( (pstFilePointer = fopen("ind.jpeg", "rb")) != NULL )
+		if( (pstFilePointer = fopen("i.jpeg", "rb")) != NULL )
 		{
 			/* FInding file size */
 			fseek(pstFilePointer, 0, SEEK_END);
