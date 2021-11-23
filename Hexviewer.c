@@ -35,13 +35,13 @@ void main()
 {
 	FILE* pstFilePointer = NULL;						/* File pointer */
 	uint32 ulExitControl1 = 0;							/* Loop exit controller */
-	uint32 ucExitControl2 = 0;							/* Loop exit controller */
-	uint32 ucLoopCounter = 0;							/* Loop Counter */
+	uint32 ulExitControl2 = 0;							/* Loop exit controller */
+	uint32 ulLoopCounter = 0;							/* Loop Counter */
 	uint8 pucStringContent[BUFFER_MAX_SIZE] = {0};		/* String contain file content */
-	uint32 ucFileSize = 0;								/* File size */
+	uint32 ulFileSize = 0;								/* File size */
 	uint8 ucSpaceCounter = 0;							/* Allignment controller */
-	uint32 ucAddressCounter = 0;						/* Byte address */
-	uint32 ucBufferSize = 0;							/* Buffer size */
+	uint32 ulAddressCounter = 0;						/* Byte address */
+	uint32 ulBufferSize = 0;							/* Buffer size */
 
 		/* Checking the file open */
 		if( (pstFilePointer = fopen("extension.jpeg", "rb")) != NULL )
