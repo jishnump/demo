@@ -34,7 +34,7 @@ typedef unsigned long uint32;
 void main()
 {
 	FILE* pstFilePointer = NULL;						/* File pointer */
-	uint32 ucExitControl1 = 0;							/* Loop exit controller */
+	uint32 ulExitControl1 = 0;							/* Loop exit controller */
 	uint32 ucExitControl2 = 0;							/* Loop exit controller */
 	uint32 ucLoopCounter = 0;							/* Loop Counter */
 	uint8 pucStringContent[BUFFER_MAX_SIZE] = {0};		/* String contain file content */
